@@ -1,0 +1,7 @@
+Chanegs:
+
+1-ConnectedUserInfo & OfflineMessagesare added to Database Tables by CreateOfflineSchema.cs
+2-OfflineMessageService is added to Server Project
+3-ChatHub in server project has changed to use OfflineMessageServices in lifecyle events to save disconnected users and offline messages if needed 
+4-OfflineMessagesController is added to server project to expose GetOfflineMessages endpoint
+5-Index.razor has chaned to show offline messages above other messages if there is any
